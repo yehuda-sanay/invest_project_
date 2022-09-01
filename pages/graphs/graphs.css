@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header {
+    display: flex;
+    background-color: rgb(248, 248, 248); ;
+  }
+  .navbar-toggler{
+    background-color: aqua;
+  }
+  
+  .navbar{
+    display: flex;
+    width: 100vw;
+  }
+  .navimg {
+    width: 8vw;
+  }
+  .navbar-nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-style: italic;
+  }
+  nav-item:hover {
+    background-color: gray;
+  }
+#coin_main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+}
+#container{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+/* .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+ 
+.footer {
+    display: flex;
+    background-color:  rgb(248, 248, 248);;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
